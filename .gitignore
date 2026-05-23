@@ -1,0 +1,27 @@
+.omx/
+
+# Local secrets and machine-specific env files.
+.env
+.env.*
+!.env.example
+
+# Dependency and build outputs.
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+.cache/
+.pytest_cache/
+__pycache__/
+.venv/
+venv/
+*.pyc
+*.pyo
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+
+# Temporary name used while flattening nested git repositories for upload.
+**/.git-upload-backup-*/
